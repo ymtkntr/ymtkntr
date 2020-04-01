@@ -1,0 +1,15 @@
+afx 新規作成メニュー
+
+"T: Text       ファイル作成" "$~\afxtools\bin\afxexec.exe" $~\bat\copy_newfile.bat $~\file_template\新規.txt "$P"
+"E: Excel      ファイル作成" "$~\afxtools\bin\afxexec.exe" $~\bat\copy_newfile.bat $~\file_template\新規.xlsx "$P"
+"W: Word       ファイル作成" "$~\afxtools\bin\afxexec.exe" $~\bat\copy_newfile.bat $~\file_template\新規.docx "$P"
+"P: PowerPoint ファイル作成" "$~\afxtools\bin\afxexec.exe" $~\bat\copy_newfile.bat $~\file_template\新規.pptx "$P"
+"V: Visio      ファイル作成" "$~\afxtools\bin\afxexec.exe" $~\bat\copy_newfile.bat $~\file_template\新規.vsd "$P"
+"A: astah      ファイル作成" "$~\afxtools\bin\afxexec.exe" $~\bat\copy_newfile.bat $~\file_template\新規.asta "$P"
+"U: url        ファイル作成" "$~\afxtools\bin\afxexec.exe" $~\bat\copy_newfile.bat $~\file_template\新規.url "$P"
+"  ---------"
+"0: メニューの編集" &EDIT $~\menu\新規作成メニュー.txt
+
+"← メニュー一覧 →"
+;L="$~\menu\メニュー一覧.txt"
+;R="$~\menu\メニュー一覧.txt"

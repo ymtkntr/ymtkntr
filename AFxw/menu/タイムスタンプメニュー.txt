@@ -1,0 +1,15 @@
+afx 日付変更メニュー
+
+"A: 現在時刻に変更" "$~\afxtools\bin\afxexec.exe" $~\bin\touch $MS
+"B: 現在時刻に変更(再帰的)" "$~\afxtools\bin\afxexec.exe" $~\bin\touch -R $MS
+"C: タイムスタンプ変更" $V"tool_D"\EzFileAge\FileAge.exe $MF
+"D: ファイル名からタイムスタンプ変更" $V"tool_D"\TSChange\TSChange.exe $MF
+"E: 1980/01/01に変更" "$~\afxtools\bin\afxexec.exe" $~\bin\touch -c -t 198001010000 $MF
+"  ---------"
+"！！！Shift+Rでも変更できるぞ！！！"
+"  ---------"
+"0: メニューの編集" &EDIT $V"afx"\menu\タイムスタンプメニュー.txt
+
+"← メニュー一覧 →"
+;L="$V"afx"\menu\メニュー一覧.txt"
+;R="$V"afx"\menu\メニュー一覧.txt"

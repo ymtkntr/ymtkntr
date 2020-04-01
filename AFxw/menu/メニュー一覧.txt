@@ -1,0 +1,17 @@
+afx メニュー 一覧
+
+"A: あふメニュー   (Shift+F1)" &MENU $V"afx"\menu\あふメニュー.txt
+"B: コピー            (Alt+C)" &MENU $V"afx"\menu\コピーメニュー.txt
+"C: 移動              (Alt+M)" &MENU $V"afx"\menu\移動メニュー.txt
+"D: 削除              (Alt+D)" &MENU $V"afx"\menu\削除メニュー.txt
+"E: 新規作成         (Ctrl+N)" &MENU $V"afx"\menu\新規作成メニュー.txt
+"F: リンク作成        (Alt+K)" &MENU $V"afx"\menu\リンク作成メニュー.txt
+"G: クリップボードコピー (F8)" &MENU $V"afx"\menu\クリップボードコピーメニュー.txt
+"H: タイムスタンプ" &MENU $V"afx"\menu\タイムスタンプメニュー.txt
+"I: ファイルリスト作成" &MENU $V"afx"\menu\ファイルリスト作成メニュー.txt
+"  ---------"
+"X: マイコンピューター" explorer.exe ::{20D04FE0-3AEA-1069-A2D8-08002B30309D} 
+"Y: マイネットワーク" explorer.exe ::{208D2C60-3AEA-1069-A2D7-08002B30309D} 
+"Z: ごみ箱" explorer.exe ::{645FF040-5081-101B-9F08-00AA002F954E} 
+"  ---------"
+"0: メニューの編集" &EDIT $V"afx"\menu\メニュー一覧.txt

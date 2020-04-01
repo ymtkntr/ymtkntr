@@ -1,0 +1,12 @@
+afx ファイルリスト作成メニュー
+
+"A: リスト作成機起動" "$V"tool_S"\ファイルリスト作成機\Dir2List.exe" /s "$V"tool_S"\ファイルリスト作成機\nomal.ini" /f "$P" /l "$P\"List"yymmdd".csv""
+"B: リストを作成" "$V"tool_S"\ファイルリスト作成機\Dir2List.exe" /a /s "$V"tool_S"\ファイルリスト作成機\nomal.ini" /b- /f "$P" /l "$P\"List"yymmdd".csv"" /w $J;$*P
+"C: リストを作成(サブフォルダ含む)" "$V"tool_S"\ファイルリスト作成機\Dir2List.exe" /a /s "$V"tool_S"\ファイルリスト作成機\nomal.ini" /b /f "$P" /l "$P\"List"yymmdd".csv"" /w $J;$*P
+"D: CD等読込専用メディアのリスト(逆窓に作成)" "$V"tool_S"\ファイルリスト作成機\Dir2List.exe" /a /s "$V"tool_S"\ファイルリスト作成機\nomal.ini" /b /f "$P" /l "$O\"List"yymmdd".csv"" /w $J;$*P
+"  ---------"
+"0: メニューの編集" &EDIT $V"afx"\menu\ファイルリスト作成メニュー.txt
+
+"← メニュー一覧 →"
+;L="$V"afx"\menu\メニュー一覧.txt"
+;R="$V"afx"\menu\メニュー一覧.txt"

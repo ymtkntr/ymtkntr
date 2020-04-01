@@ -1,0 +1,17 @@
+afx リンク作成メニュー
+
+"A: ショートカットを作成" &each -O $v"afx"\AMKSC.EXE "$P\$F" "$O"
+"B: ハードリンクorジャンクションを作成" &each -O $v"afx"\AMKLN.EXE "$P\$F" "$O\$F"
+;"(古い)A: ショートカットを作成" WScript $V"tool_D"\WSH\MakeShortcut.vbs "$F" "$O" "$F"
+;"(古い)B: シンボリックリンク(フォルダ)を作成" &EACH run MKLINK /D "$O\$F" "$P\$F"
+;"(古い)C: シンボリックリンク(ファイル)を作成" &EACH run MKLINK "$O\$F" "$P\$F"
+;"(古い)D: ハードリンクを作成" &EACH run MKLINK /H "$O\$F" "$P\$F"
+;"E: 仮想ドライブを作成" run subst $I"仮想ドライブ名 (Tドライブなら T)": $P\$F
+"  ---------"
+;"1: 仮想ドライブ一覧" $V"ComSpec" /C "subst & (echo.) & pause" 
+;"2: 仮想ドライブを解除" run subst $I"解除する仮想ドライブ": /D
+"0: メニューの編集" &EDIT $V"afx"\menu\リンク作成メニュー.txt
+
+"← メニュー一覧 →"
+;L="$V"afx"\menu\メニュー一覧.txt"
+;R="$V"afx"\menu\メニュー一覧.txt"

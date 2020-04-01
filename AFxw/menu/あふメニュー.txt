@@ -1,0 +1,21 @@
+afx あふメニュー
+
+"A: あふルートへ" &CD $V"afx"\
+"B: マニュアル表示" &EDIT $V"afx"\AFXW.TXT
+"C: 設定マニュアル表示" &EDIT $V"afx"\AFXWCFG.TXT
+"D: キー定義仕様表示" &EDIT $V"afx"\AFXWKEY.TXT
+"E: キー定義直接編集" &EDIT $V"afx"\AFXW.KEY
+"F: あちゃ"  &EDIT $V"afx"\ACHAW.TXT
+;"A: あふマニュアル" &EXEC $V"afx"\afx.chm
+;"B: キー定義表示" &EXEC $V"afx"\AfxKView\AfxKView.exe
+;"C: キー定義編集ﾌﾟﾛｸﾞﾗﾑ" &EXEC $V"afx"\K3KEYAFX.exe
+;"E: あふのアップデート" $V"afx"\AFxUpd.exe $V"DataDrive"\archive\file\あふ\afx0*.zip
+;"F: あふのアップデート(web)" $V"afx"\AFxUpd.exe http://www.h5.dion.ne.jp/~akt/akt_afx.htm $V"afx" /DOWNPATH $V"DataDrive"\archive\file\あふ
+;"G: あふ追加起動" $V"afx"\afx.exe -L"$P\" -R"$O\"
+;"H: あふ再起動" $V"tool_D"\CraftLaunch\clnch.exe /ex "&WinMessage;あふ v 0,,16,0,0" "&Sleep;200" "AFx"
+;"  ---------"
+"0: メニューの編集" &EDIT $V"afx"\menu\あふメニュー.txt
+
+"← メニュー一覧 →"
+;L="$V"afx"\menu\メニュー一覧.txt"
+;R="$V"afx"\menu\メニュー一覧.txt"

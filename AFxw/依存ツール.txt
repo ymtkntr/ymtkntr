@@ -1,0 +1,6 @@
+$V"tool_D"\FireFileCopy\FFC.exe"
+$V"tool_D"\FileSum\FileSum.exe"
+
+
+定義ファイル
+AFXW.KEY

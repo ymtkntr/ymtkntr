@@ -1,0 +1,11 @@
+afx 削除メニュー
+
+"A: ごみ箱を空にする" "$V"tool_D"\SingleFacility\deletedust\DeleteDust.exe"
+"B: [thidir] 空フォルダを削除 P" $~\afxtools\bin\afxexec.exe cmd /c $~\bat\rmdir_empty.bat "$P"
+"C: [thidir] ワイルドカードフォルダ削除 P" $~\afxtools\bin\afxexec.exe cmd /c $~\bat\rmdir_masked.bat "$P" *$K*
+"  ---------"
+"0: メニューの編集" &EDIT $V"afx"\menu\削除メニュー.txt
+
+"← メニュー一覧 →"
+;L="$V"afx"\menu\メニュー一覧.txt"
+;R="$V"afx"\menu\メニュー一覧.txt"

@@ -1,0 +1,14 @@
+afx 移動メニュー
+
+"A: パスを指定して移動" &MOVETO "$P$K"
+"B: 親ディレクトリへ移動"&MOVETO ..
+"C: 履歴から選択して移動" &MOVEHIS
+"F: FireFileCopyで移動" "$V"tool_D"\FireFileCopy\FFC.exe" $MF /to:"$O" /move
+"  ---------"
+"3: FFCのログフォルダへ" &CD "$V"tool_D"\FireFileCopy\log\"
+"4: FFCのログ削除" $V"ComSpec" /c "del "$V"tool_D"\FireFileCopy\*.log""
+"0: メニューの編集" &EDIT $V"afx"\menu\移動メニュー.txt
+
+"← メニュー一覧 →"
+;L="$V"afx"\menu\メニュー一覧.txt"
+;R="$V"afx"\menu\メニュー一覧.txt"

@@ -1,0 +1,113 @@
+AFxw
+│  7-zip64.dll
+│  7z.dll
+│  a.txt
+│  ACHAW.TXT
+│  AFXW.DEF
+│  AFXW.EXE
+│  AFXW.HIS
+│  AFXW.INI
+│  AFXW.KEY
+│  AFXW.TXT
+│  AFXWAMS.TXT
+│  AFXWCFG.EXE
+│  AFXWCFG.TXT
+│  AFXWCMD.EXE
+│  AFXWCMD.TXT
+│  AFXWKEY.TXT
+│  AFXW_20140320.KEY
+│  AFXW_20161227.KEY
+│  AFXW_編集中.KEY
+│  AMKLN.EXE
+│  AMKLN.TXT
+│  AMKSC.EXE
+│  AMKSC.TXT
+│  bregonig.dll
+│  keydef.md
+│  LMZIP64.dll
+│  msvcr100.dll
+│  READMEW.TXT
+│  tar64.dll
+│  tempLink.TXT
+│  tempLink2.TXT
+│  unrar64.dll
+│  unrar64j.dll
+│  ブックマーク設計.txt
+│  依存ツール.txt
+│  
+├─afxtools
+│              
+├─archive
+│  │  7z922001_64.zip
+│  │  afxselectw-0.3.1w2.zip
+│  │  afxtools_1_5_4.zip
+│  │  afxw64_161.zip
+│  │  afxw64_164.zip
+│  │  bron411.zip
+│  │  cmigemo-default-win64-20110227.zip
+│  │  k3keyafx07c.zip
+│  │  LZIP6233.lzh
+│  │  tar64_242.zip
+│  │  unbypass17.zip
+│  │  UNLHA32.DLL
+│  │  unrar64j017.zip
+│  │  unrar64j_121107.zip
+│  │  UnRARDLL.exe
+│  │  yaafxwcmd-0.4.3w3.zip
+│  │  
+│  └─afxmouse
+│          
+├─bat
+│      copy_newfile.bat
+│      FileConvert.ps1
+│      JumpToLink.vbs
+│      rmdir_empty.bat
+│      rmdir_masked.bat
+│      tempLink.bat
+│      
+├─bin
+│      touch.exe
+│      touch.txt
+│      
+├─ext_tools
+│  ├─FileSum
+│  ├─FireFileCopy
+│  └─ViW
+│              
+├─file_template
+│      新規.asta
+│      新規.docx
+│      新規.pptx
+│      新規.txt
+│      新規.url
+│      新規.vsd
+│      新規.xlsx
+│      
+├─links
+│  ├─dirs
+│  └─files
+│          
+├─menu
+│      propertiesメニュー.txt
+│      あふメニュー.txt
+│      クリップボードコピーメニュー.txt
+│      コピーメニュー.txt
+│      タイムスタンプメニュー.txt
+│      ファイルリスト作成メニュー.txt
+│      メニュー一覧.txt
+│      リンク作成メニュー.txt
+│      削除メニュー.txt
+│      新規作成メニュー.txt
+│      移動メニュー.txt
+│      
+├─migemo
+│  │  migemo.dll
+│  │  
+│  └─dict
+│          han2zen.dat
+│          hira2kata.dat
+│          migemo-dict
+│          roma2hira.dat
+│          zen2han.dat
+│          
+└─susie_plug-in

@@ -1,0 +1,5 @@
+afx propertiesメニュー
+
+"ascii -> native (*_native.propertiesを生成)" &each -P "$V"JAVA_HOME"\bin\native2ascii" -reverse "$F" "$W_native.$E"
+"native -> ascii (*_ascii.propertiesを生成)" &each -P "$V"JAVA_HOME"\bin\native2ascii" "$F" "$W_ascii.$E"
+;"メニューの編集" &EDIT $V"afx"\menu\propertiesメニュー.txt

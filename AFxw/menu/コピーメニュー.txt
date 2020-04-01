@@ -1,0 +1,14 @@
+afx コピーメニュー
+
+"A: パスを指定して複写" &COPYTO "$P$K"
+"B: 親ディレクトリへ複写"&COPYTO ..
+"C: 履歴から選択して複写" &COPYHIS
+"F: FireFileCopyで複写" "$V"tool_D"\FireFileCopy\FFC.exe" $MF /to:"$O" /copy
+"  ---------"
+;"3: FFCのログフォルダへ" &CD "$V"tool_D"\FireFileCopy\log\"
+;"4: FFCのログ削除" $V"ComSpec" /c "del "$V"tool_D"\FireFileCopy\*.log""
+"0: メニューの編集" &EDIT $V"afx"\menu\コピーメニュー.txt
+
+"← メニュー一覧 →"
+;L="$V"afx"\menu\メニュー一覧.txt"
+;R="$V"afx"\menu\メニュー一覧.txt"
